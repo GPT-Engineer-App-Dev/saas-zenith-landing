@@ -6,7 +6,7 @@ const Index = () => {
     <Container maxW="container.xl" p={4}>
       {/* Header */}
       <HStack justifyContent="space-between" py={4}>
-        <Heading size="lg">SaaSify</Heading>
+        <Heading size="lg">Rocketify</Heading>
         <HStack spacing={4}>
           <Button variant="link">Features</Button>
           <Button variant="link">Pricing</Button>
@@ -17,12 +17,12 @@ const Index = () => {
 
       {/* Hero Section */}
       <VStack spacing={8} py={16} textAlign="center">
-        <Heading size="2xl">Supercharge Your Business with SaaSify</Heading>
-        <Text fontSize="lg">The ultimate solution to streamline your operations and boost productivity.</Text>
+        <Heading size="2xl">Launch Your Digital Rockets with Rocketify</Heading>
+        <Text fontSize="lg">The ultimate platform for creating, managing, and launching digital rockets.</Text>
         <Button colorScheme="orange" size="lg" rightIcon={<FaRocket />}>
           Get Started
         </Button>
-        <Image src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2R1Y3Rpdml0eXxlbnwwfHx8fDE3MTYxMzgxOTF8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Business Productivity" borderRadius="md" boxShadow="lg" />
+        <Image src="https://images.unsplash.com/photo-1581091870627-3a6c6c7f8f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByb2NrZXR8ZW58MHx8fHwxNjg0NzY4NzA3&ixlib=rb-4.0.3&q=80&w=1080" alt="Digital Rocket" borderRadius="md" boxShadow="lg" />
       </VStack>
 
       {/* Features Section */}
@@ -30,16 +30,16 @@ const Index = () => {
         <Heading size="xl">Features</Heading>
         <HStack spacing={8} wrap="wrap" justifyContent="center">
           <Box p={4} borderWidth={1} borderRadius="md" boxShadow="md" maxW="sm">
-            <Heading size="md">Feature One</Heading>
-            <Text mt={2}>Description of feature one.</Text>
+            <Heading size="md">Rocket Design</Heading>
+            <Text mt={2}>Create and customize your digital rockets with our intuitive design tools.</Text>
           </Box>
           <Box p={4} borderWidth={1} borderRadius="md" boxShadow="md" maxW="sm">
-            <Heading size="md">Feature Two</Heading>
-            <Text mt={2}>Description of feature two.</Text>
+            <Heading size="md">Launch Management</Heading>
+            <Text mt={2}>Manage and schedule your rocket launches with ease.</Text>
           </Box>
           <Box p={4} borderWidth={1} borderRadius="md" boxShadow="md" maxW="sm">
-            <Heading size="md">Feature Three</Heading>
-            <Text mt={2}>Description of feature three.</Text>
+            <Heading size="md">Analytics</Heading>
+            <Text mt={2}>Track the performance of your rockets with detailed analytics.</Text>
           </Box>
         </HStack>
       </VStack>
@@ -58,7 +58,7 @@ const Index = () => {
 
       {/* Footer */}
       <HStack justifyContent="space-between" py={8}>
-        <Text>&copy; {new Date().getFullYear()} SaaSify. All rights reserved.</Text>
+        <Text>&copy; {new Date().getFullYear()} Rocketify. All rights reserved.</Text>
         <HStack spacing={4}>
           <IconButton aria-label="Facebook" icon={<FaFacebook />} />
           <IconButton aria-label="Twitter" icon={<FaTwitter />} />
