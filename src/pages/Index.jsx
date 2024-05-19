@@ -11,7 +11,7 @@ const Index = () => {
           <Button variant="link">Features</Button>
           <Button variant="link">Pricing</Button>
           <Button variant="link">Contact</Button>
-          <Button colorScheme="teal">Sign Up</Button>
+          <Button colorScheme="orange">Sign Up</Button>
         </HStack>
       </HStack>
 
@@ -19,7 +19,7 @@ const Index = () => {
       <VStack spacing={8} py={16} textAlign="center">
         <Heading size="2xl">Supercharge Your Business with SaaSify</Heading>
         <Text fontSize="lg">The ultimate solution to streamline your operations and boost productivity.</Text>
-        <Button colorScheme="teal" size="lg" rightIcon={<FaRocket />}>
+        <Button colorScheme="orange" size="lg" rightIcon={<FaRocket />}>
           Get Started
         </Button>
         <Image src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2R1Y3Rpdml0eXxlbnwwfHx8fDE3MTYxMzgxOTF8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Business Productivity" borderRadius="md" boxShadow="lg" />
@@ -51,7 +51,7 @@ const Index = () => {
         <InputGroup maxW="md">
           <Input placeholder="Enter your email" />
           <InputRightElement width="auto">
-            <Button colorScheme="teal">Subscribe</Button>
+            <Button colorScheme="orange">Subscribe</Button>
           </InputRightElement>
         </InputGroup>
       </VStack>
