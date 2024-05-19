@@ -23,6 +23,7 @@ const Index = () => {
           Get Started
         </Button>
         <Image src="https://images.unsplash.com/photo-1581091870627-3a6c6c7f8f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByb2NrZXR8ZW58MHx8fHwxNjg0NzY4NzA3&ixlib=rb-4.0.3&q=80&w=1080" alt="Digital Rocket" borderRadius="md" boxShadow="lg" />
+        <Image src="https://images.unsplash.com/photo-1581091870627-3a6c6c7f8f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByb2NrZXR8ZW58MHx8fHwxNjg0NzY4NzA3&ixlib=rb-4.0.3&q=80&w=1080" alt="Digital Rocket" borderRadius="md" boxShadow="lg" />
       </VStack>
 
       {/* Features Section */}
