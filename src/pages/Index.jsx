@@ -1,11 +1,9 @@
 import { Container, Box, VStack, HStack, Text, Heading, Button, IconButton, Image, Input, InputGroup, InputRightElement } from "@chakra-ui/react";
-import Navigation from "../components/Navigation.jsx";
 import { FaRocket, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Index = () => {
   return (
     <Container maxW="container.xl" p={4}>
-      <Navigation />
       <HStack justifyContent="space-between" py={4}>
         <Heading size="lg">Rocketify</Heading>
         <HStack spacing={4}>
