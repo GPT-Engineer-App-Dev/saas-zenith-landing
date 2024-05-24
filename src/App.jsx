@@ -10,7 +10,6 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
-        <Route exact path="/" element={<Index />} />
       </Routes>
     </Router>
   );
