@@ -18,14 +18,9 @@ const Index = () => {
       <VStack spacing={8} py={16} textAlign="center">
         <Heading size="2xl">Launch Your Digital Rockets with Rocketify</Heading>
         <Text fontSize="lg">The ultimate platform for creating, managing, and launching digital rockets.</Text>
-        <HStack spacing={4}>
-          <Button colorScheme="blue" size="lg" rightIcon={<FaRocket />}>
-            Get Started
-          </Button>
-          <Button colorScheme="teal" size="lg">
-            Contact Us
-          </Button>
-        </HStack>
+        <Button colorScheme="blue" size="lg" rightIcon={<FaRocket />}>
+          Get Started
+        </Button>
         <Image src="https://images.unsplash.com/photo-1581091870627-3a6c6c7f8f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByb2NrZXR8ZW58MHx8fHwxNjg0NzY4NzA3&ixlib=rb-4.0.3&q=80&w=1080" alt="Digital Rocket" borderRadius="md" boxShadow="lg" />
         <Image src="https://images.unsplash.com/photo-1581091870627-3a6c6c7f8f8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjByb2NrZXR8ZW58MHx8fHwxNjg0NzY4NzA3&ixlib=rb-4.0.3&q=80&w=1080" alt="Digital Rocket" borderRadius="md" boxShadow="lg" />
       </VStack>
